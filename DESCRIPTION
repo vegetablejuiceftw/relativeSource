@@ -1,0 +1,9 @@
+Package: relativeSource
+Title: Source files relative to the sourcing file path, not workspace path
+Version: 0.0.0.9000
+Authors@R: person("Fred", "Kirsi", email = "fred.eric.kirsi@gmail.com", role = c("aut", "cre"))
+Description: When importing files from 3 folders deep, that depend on files in the said folder, writing source relative to the WS is a pain. Same applies if you try to run R files outside of your WS. This package auto generates the full path to the directory of the file the relative_source is called, and thus abstracts away the need to do it yourself.
+Depends: R (>= 3.4.4)
+License: MIT
+Encoding: UTF-8
+LazyData: true
